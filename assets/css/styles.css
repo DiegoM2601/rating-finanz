@@ -208,3 +208,7 @@ a {
 .tabla-body td:nth-child(3) {
   background: rgb(95, 7, 7) !important;
 }
+
+.tabla-body td:nth-child(1) img {
+  border-radius: 1.5rem;
+}
