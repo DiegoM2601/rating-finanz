@@ -6,8 +6,8 @@
   --nav-width: 92px;
 
   /*===== Colores =====*/
-  --first-color: #0c5df4;
-  --bg-color: #12192c;
+  --first-color: #801212;
+  --bg-color: #1c1e24;
   --sub-color: #b6cefc;
   --white-color: #fff;
 
@@ -25,12 +25,13 @@
 ::before,
 ::after {
   box-sizing: border-box;
+  font-family: var(--body-font) !important;
 }
 body {
   position: relative;
   margin: 0;
   padding: 2rem 0 0 6.75rem;
-  font-family: var(--body-font);
+
   font-size: var(--normal-font-size);
   transition: 0.5s;
 }
@@ -202,4 +203,8 @@ a {
 /*Rotate icon*/
 .rotate {
   transform: rotate(180deg);
+}
+
+.tabla-body td:nth-child(3) {
+  background: rgb(95, 7, 7) !important;
 }
